@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
 h1,
@@ -29,7 +30,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -42,10 +43,10 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
-.hero p {
+.hero h5 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
@@ -60,7 +61,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -190,12 +191,8 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
@@ -207,4 +204,13 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
+}
+
+
+.cv {
+  text-align: center;
+}
+
+.work {
+  text-align: center;
 }
