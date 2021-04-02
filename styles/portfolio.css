@@ -107,6 +107,10 @@ p {
   padding: 15px 30px;
 }
 
+.btn-branding-outline, .btn-branding, .img-fluid {
+  box-shadow: 10px 10px 8px rgb(182, 181, 181);
+}
+
 .project-desciption {
   padding: 120px 60px;
 }
@@ -117,6 +121,7 @@ p {
 
 nav {
   padding: 20px 0;
+  
 }
 
 nav ul {
@@ -207,10 +212,6 @@ footer .social-links a:hover {
 }
 
 
-.cv {
-  text-align: center;
-}
-
-.work {
+.cv, .work, .host {
   text-align: center;
 }
